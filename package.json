@@ -1,0 +1,12 @@
+{
+  "name": "azure-devops-static-pipeline-dashboard",
+  "version": "1.0.0",
+  "description": "Página estática simples e bonita para ser publicada como artefato ou site em pipelines do Azure DevOps.",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}
+
