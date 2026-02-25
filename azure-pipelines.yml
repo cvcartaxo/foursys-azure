@@ -34,6 +34,6 @@ stages:
         command: buildAndPush
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
-        containerRegistry: solutionsimages.azurecr.io
+        containerRegistry: solutions-foursys
         tags: |
           $(tag)
