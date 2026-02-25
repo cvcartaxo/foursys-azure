@@ -34,6 +34,6 @@ stages:
         command: buildAndPush
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
-        containerRegistry: $(dockerRegistryServiceConnection)
+        containerRegistry: solutionsimages.azurecr.io
         tags: |
           $(tag)
